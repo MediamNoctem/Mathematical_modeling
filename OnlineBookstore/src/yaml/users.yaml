@@ -1,0 +1,23 @@
+--- !!python/object:User.User
+birthdate: 1980-01-01
+firstname: "\u041C\u0430\u0440\u043A"
+id_user: 0
+lastname: "\u0421\u0435\u043C\u0435\u043D\u043E\u0432"
+login: admin
+password: admin
+patronymic: "\u041C\u0438\u0445\u0430\u0439\u043B\u043E\u0432\u0438\u0447"
+type_user: "\u0410\u0434\u043C\u0438\u043D\u0438\u0441\u0442\u0440\u0430\u0442\u043E\
+  \u0440"
+--- !!python/object:Buyer.Buyer
+birthdate: 2001-07-05
+firstname: "\u0410\u043D\u0430\u0441\u0442\u0430\u0441\u0438\u044F"
+id_user: 1
+lastname: "\u0420\u043E\u043C\u0430\u0448\u043A\u0438\u043D\u0430"
+list_of_orders: []
+login: buyer1
+password: '05072001'
+patronymic: "\u0410\u043B\u0435\u043A\u0441\u0430\u043D\u0434\u0440\u043E\u0432\u043D\
+  \u0430"
+shopping_cart: !!python/object:ShoppingCart.ShoppingCart
+  list_of_products: []
+type_user: "\u041F\u043E\u043A\u0443\u043F\u0430\u0442\u0435\u043B\u044C"
